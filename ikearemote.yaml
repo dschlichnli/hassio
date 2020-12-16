@@ -11,6 +11,7 @@ blueprint:
       description: IKEA remote to use
       selector:
         device:
+          domain: sensor
           model: TRADFRI open/close remote
     cover:
       name: Roller Blind
