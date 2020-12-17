@@ -10,7 +10,7 @@ blueprint:
       name: Remote
       description: IKEA remote to use
       selector:
-        device:
+        entity:
           domain: sensor
           model: TRADFRI open/close remote
     cover:
