@@ -12,7 +12,6 @@ blueprint:
       selector:
         entity:
           domain: sensor
-          model: TRADFRI open/close remote
     cover:
       name: Roller Blind
       description: Roller blind to control
